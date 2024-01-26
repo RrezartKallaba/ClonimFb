@@ -1,0 +1,139 @@
+body {
+    margin-top: -26px;
+    background-color: #f0f2f5;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+img {
+    width: 301px;
+    height: 106px;
+    margin-left: -36px;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+form {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+h2 {
+    width: 500px;
+    height: 84px;
+    margin-top: -15px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin-left: -10px;
+    font-size: 28px;
+}
+
+form {
+    margin-top: 72px;
+    width: 396px;
+    height: 350px;
+    background-color: rgb(220, 220, 220);
+    margin-left: 75px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+input,
+button {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 1px;
+    color: #1d2129;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 16px;
+    font-size: 17px;
+    padding: 15px 16px;
+    width: 330px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+    width: 364px !important;
+    background-color: #1877F2;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #1B74E4;
+}
+
+.paragraph a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    color: #1877F2;
+    font-size: 14px;
+    width: 114px;
+    height: 16px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-create-account {
+    width: 210px !important;
+    height: 48px !important;
+    padding: 0 16px !important;
+    font-size: 17px !important;
+    line-height: 48px !important;
+    border-radius: 6px !important;
+    background-color: #36A420 !important;
+    margin-top: 5px;
+}
+
+.create-page {
+    text-decoration: none;
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 125px;
+}
+
+.text {
+    margin-top: 28px;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
